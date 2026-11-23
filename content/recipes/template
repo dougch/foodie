@@ -1,17 +1,31 @@
 +++
 title = "Title"
-date = "1970-01-01"
+date = 2026-01-01
+description = "One line, under 60 characters."
 
 [taxonomies]
 categories = ["recipe"]
-tags = ["side", "main", "dessert", "gross"]
+tags = ["main"]
+cuisine = ["American"]
+
+[extra]
+servings = 4
 +++
 
-
-Brief recipe blurb
+Blurb: what the dish is and why it's worth making.
 
 <!-- more -->
 
+Where the recipe came from and what makes it work.
+
 ### Ingredients
 
+- 500 g ingredient, prep
+
 ### Steps
+
+1. Preheat the oven to 350°F.
+
+### Yield
+
+Serves 4.

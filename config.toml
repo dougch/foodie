@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://prjctgeek.github.io/foodie"
-title = "Cooking for sensory averse"
-description = "Some recipes for sensory averse, and those coping"
+title = "Doug's Kitchen"
+description = "My recipes"
 default_language = "en"
 minify_html = false
 
@@ -16,6 +16,7 @@ ignored_content = [ "README.md" ]
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 10 },
     { name = "tags", fees = true, paginate_by = 10 },
+    { name = "cuisine", paginate_by = 10 },
 ]
 
 
@@ -30,7 +31,6 @@ toc = true
 navbar_items = [
  { code = "en", nav_items = [
   { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/guidelines", name = "Guidelines" },
   { url = "$BASE_URL/recipes", name = "Recipes" },
  ]},
   { code = "it", nav_items = [

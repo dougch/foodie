@@ -15,9 +15,23 @@
       {{ macros:: social_links( social_config=config.extra.social) }}
       {% endif %}
     </div>
+    {%- set parts = section.content | split(pat="<!-- pills -->") %}
     <div class="content is-black">
-      {{ section.content | safe }}
+      {{ parts[0] | safe }}
     </div>
+    {% if parts | length > 1 %}
+    <div class="content is-black">
+      <h4>By course</h4>
+      {% set kind = "tags" %}{% set only = ["appetizer", "breakfast", "main", "side", "dessert"] %}{% set style = "is-info" %}
+      {% include "partials/tag_pills.html" %}
+      <h4>By cuisine</h4>
+      {% set kind = "cuisine" %}{% set only = [] %}{% set style = "is-warning" %}
+      {% include "partials/tag_pills.html" %}
+    </div>
+    <div class="content is-black">
+      {{ parts[1] | safe }}
+    </div>
+    {% endif %}
   </div>
 </section>
 {% endblock %}

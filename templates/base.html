@@ -63,6 +63,30 @@
     margin-left: 150px;
     font-size: 14px;
     }
+
+    .pill-row .tag { text-decoration: none; }
+    .pill-row .tag:hover { filter: brightness(0.95); }
+    .pill-count {
+    margin-left: 0.5em;
+    font-size: 0.75em;
+    opacity: 0.6;
+    }
+
+    .scale-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.25rem;
+    margin: 0.75rem 0 0.5rem;
+    }
+    .scale-bar[hidden] { display: none; }
+    .scale-group { display: flex; align-items: center; gap: 0.5rem; }
+    .scale-group .buttons { margin-bottom: 0; }
+    .scale-group .button { margin-bottom: 0 !important; }
+    .scale-label { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.05em; color: #7a7a7a; }
+    .scale-note { font-size: 0.85em; color: #7a7a7a; }
+    .qty, .temp { font-weight: 600; }
+    .food-safety { max-width: 40rem; margin: 0 auto 1rem; font-size: 0.8em; color: #7a7a7a; }
     </style>
   {% endblock %}
 
@@ -213,6 +237,11 @@
 
     <footer class="footer py-4">
       <div class="content has-text-centered">
+        <p class="food-safety">
+          <strong>Food safety:</strong> the USDA recommends cooking ground meat to 160°F (71°C), poultry to 165°F (74°C),
+          and whole cuts of beef, pork and lamb to 145°F (63°C). Some recipes here use lower temperatures.
+          Eating raw or undercooked meat, poultry, seafood or eggs may increase your risk of foodborne illness.
+        </p>
         <p>
           Powered by
           <span class="icon-text">

@@ -1,0 +1,12 @@
+{%- set tax = get_taxonomy(kind=kind) -%}
+<div class="tags pill-row">
+{%- if only -%}
+{%- for name in only -%}{%- for term in tax.items -%}{%- if term.name == name -%}
+<a class="tag is-rounded is-medium is-light {{ style }}" href="{{ term.permalink }}">{{ term.name }}<span class="pill-count">{{ term.pages | length }}</span></a>
+{%- endif -%}{%- endfor -%}{%- endfor -%}
+{%- else -%}
+{%- for term in tax.items | sort(attribute="name") -%}
+<a class="tag is-rounded is-medium is-light {{ style }}" href="{{ term.permalink }}">{{ term.name }}<span class="pill-count">{{ term.pages | length }}</span></a>
+{%- endfor -%}
+{%- endif -%}
+</div>

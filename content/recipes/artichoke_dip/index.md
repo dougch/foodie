@@ -1,27 +1,34 @@
 +++
-title = "Artichoke dip"
+title = "Artichoke Dip"
 date = 2022-05-03
-template = "recipe.html"
+description = "Classic potluck dip that travels and reheats well."
+
 [taxonomies]
 categories = ["recipe"]
-tags = ["appetizer","squishy", "saucy"]
-
+tags = ["appetizer", "squishy", "saucy"]
+cuisine = ["American"]
 +++
 
-
-
-A quintessential potluck item from decades past, it's easy to assemble, travels well and can be re-heated easily.
+A quintessential potluck item from decades past, it's easy to assemble, travels well and can be reheated easily.
 
 <!-- more -->
 
-Serve with crackers or little slices of baguette.
+### Ingredients
 
-- 2 containers of cream cheese
-- 1 can of artichoke hearts
-- 2 jalapeno, seeded and chopped
-- 1 splash of Worcestershire
+- 2 containers cream cheese
+- 1 can artichoke hearts
+- 2 jalapeños, seeded and chopped
+- splash of Worcestershire sauce
 - 1 C grated Parmesan
-- 1 C mixed grated cheese of choir - mozerella and jack recommended
+- 1 C mixed grated cheese of choice (mozzarella and Jack recommended)
 
-Mix all but the Parmesan together in a bowl and spread in a large casserole.  Sprinkle Parmesan cheese evenly over the top. Bake for 30 minutes at 350 or until cheese on top just starts to brown.
+### Steps
 
+1. Preheat the oven to 350°F.
+2. Mix all but the Parmesan together in a bowl and spread in a large casserole.
+3. Sprinkle the Parmesan evenly over the top.
+4. Bake for 30 minutes, or until the cheese on top just starts to brown.
+
+### Serving ideas
+
+Serve with crackers or little slices of baguette.

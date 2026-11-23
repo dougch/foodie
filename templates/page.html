@@ -1,0 +1,37 @@
+{% extends "DeepThought/templates/page.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">{{ page.title }}</h1>
+          {% if page.description %}<p class="subtitle">{{ page.description }}</p>{% endif %}
+          <div class="tags pill-row">
+            {%- if page.taxonomies.cuisine -%}
+            {%- for c in page.taxonomies.cuisine -%}
+            <a class="tag is-rounded is-light is-warning" href="{{ get_taxonomy_url(kind='cuisine', name=c) }}">{{ c }}</a>
+            {%- endfor -%}
+            {%- endif -%}
+            {%- if page.taxonomies.tags -%}
+            {%- for t in page.taxonomies.tags -%}
+            <a class="tag is-rounded is-light is-info" href="{{ get_taxonomy_url(kind='tags', name=t) }}">{{ t }}</a>
+            {%- endfor -%}
+            {%- endif -%}
+          </div>
+          <div id="scale-bar" class="scale-bar" hidden data-servings="{{ page.extra.servings | default(value='') }}"></div>
+          <div class="content mt-2">
+            {{ page.content | safe }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block custom_js %}
+{{ super() }}
+<script src="{{ get_url(path='js/units.js') }}"></script>
+{% endblock %}

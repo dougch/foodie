@@ -1,40 +1,47 @@
 +++
 title = "Hamburgers"
 date = 2022-05-03
+description = "Burgers with the flavor in the meat, not the toppings."
 
 [taxonomies]
 categories = ["recipe"]
-tags = ["main", "dinner", "dry"]
+tags = ["main", "dry"]
+cuisine = ["American"]
+
+[extra]
+servings = 4
 +++
 
-
-Why is something so simple and well understood as a Hamburger here?
-
-Well, referring to the [guidelines](/guidelines), we're not going to put sauce, Mayonnaise, relish, etc on these.  How do we turn a dry hockey-puck of meat into something tasty as-is?
-
-My solution is two fold: add fat and flavor to the meat then use sous-vide.
+Why is something so simple and well understood as a hamburger here?
 
 <!-- more -->
 
+We're not going to put sauce, mayonnaise, relish, etc. on these. How do we turn a dry hockey puck of meat into something tasty as-is? My solution is twofold: add fat and flavor to the meat, then use sous vide.
+
 ### Ingredients
 
-- 500g 80/20 hamburger 
-- If using leaner meat, add 1-2 pats of softened butter 
-- 20g bread crumbs or panko
-- 10g Parmesan cheese
+- 500 g 80/20 ground beef
+- 1–2 pats softened butter (only if using leaner meat)
+- 20 g bread crumbs or panko
+- 10 g Parmesan cheese
 - dash of A1
 - dash of salt
 - 1 egg
 
+### Steps
 
-Mix together all ingredients by hand, it should be on the 'wet' side
- with the egg.  For big eaters, I portion out 170g per burger, which should yield about 3.
- For normal portion sizes, ~130g should get you to 4 burgers.  
+Mix together all the ingredients by hand; it should be on the wet side with the egg. For big eaters, I portion out 170 g per burger, which should yield about 3. For normal portion sizes, ~130 g should get you to 4 burgers.
 
-(optional) Place in vacuum seal bags and Sous-vide at 55C for an hour. Store in the refrigerator/freezer until needed.  To prepare, sear on high heat for ~2minutes per side.
+(Optional) Place in vacuum seal bags and sous vide at 55°C for an hour. Store in the refrigerator or freezer until needed. To prepare, sear on high heat for ~2 minutes per side.
 
-If not sous-vide, cook as per the usual food safety recommendation: 62C/145F in the middle.
+If not using sous vide, I cook them to 62°C in the middle (see the food safety note at the bottom of the page).
 
 Serve on a toasted bun.
 
-As mentioned in the [guidelines](/guidelines), some of the kids don't like skin on potatoes, so for fries, we just buy pre-made-made. A bit of a compromise, but it is a bit of work to do fries from scratch.
+### Yield
+
+About 4 burgers at ~130 g each, or 3 at 170 g.
+
+### Serving ideas
+
+Some of the kids don't like skin on potatoes, so for fries, we just buy premade. A bit of a compromise, but it is a bit of work to do fries from scratch.
