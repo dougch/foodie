@@ -1,0 +1,284 @@
+/* Doug's Kitchen: warm palette, serif headings, recipe-card layout.
+   Loaded after Bulma and the DeepThought theme CSS. The theme's dark mode
+   inverts the whole page, so these colors carry over automatically. */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --paper: #faf6ef;
+  --card: #fffdf9;
+  --panel: #f3ebdf;
+  --line: #e7dccd;
+  --ink: #2d2621;
+  --muted: #7b6f64;
+  --accent: #b4532a;
+  --accent-dark: #8f3f1e;
+  --accent-soft: #f5e1d6;
+  --olive: #5f6d31;
+  --olive-soft: #e9ecd8;
+  --shadow: 0 1px 2px rgba(60, 40, 20, 0.06), 0 8px 24px rgba(60, 40, 20, 0.07);
+}
+
+/* ---- base ---------------------------------------------------------------- */
+body,
+body.has-background-white {
+  background: var(--paper) !important;
+  color: var(--ink);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+h1, h2, h3, h4, h5,
+.title, .subtitle,
+.content h1, .content h2, .content h3, .content h4,
+.navbar-brand .navbar-item {
+  font-family: "Fraunces", Georgia, serif;
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.subtitle { font-weight: 400; color: var(--muted); }
+.content a:not(.tag):not(.button), .footer a { color: var(--accent-dark); }
+.content a:not(.tag):not(.button):hover { color: var(--accent); text-decoration: underline; }
+
+.navbar.is-light { background: var(--paper); border-bottom: 1px solid var(--line); }
+.navbar-brand .navbar-item { font-size: 1.4rem !important; }
+.navbar-item:hover { background: transparent !important; color: var(--accent) !important; }
+
+.box {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.footer { background: transparent; border-top: 1px solid var(--line); color: var(--muted); }
+
+.content h3 {
+  margin-top: 1.75em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--accent-soft);
+}
+.content h4 { color: var(--accent-dark); font-size: 1.1em; }
+
+/* ---- pills & buttons ------------------------------------------------------ */
+.tag.is-info.is-light { background: var(--accent-soft); color: var(--accent-dark); }
+.tag.is-warning.is-light { background: var(--olive-soft); color: var(--olive); }
+.pill-row .tag { text-decoration: none; }
+.pill-row .tag:hover { filter: brightness(0.95); }
+.pill-count { margin-left: 0.5em; font-size: 0.75em; opacity: 0.6; }
+
+.button.is-info, .button.is-info.is-selected { background: var(--accent); border-color: var(--accent); color: #fff; }
+.button.is-info:hover { background: var(--accent-dark); }
+
+/* ---- unit & portion bar --------------------------------------------------- */
+.scale-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  margin: 0.75rem 0 0.5rem;
+}
+.scale-bar[hidden] { display: none; }
+.scale-group { display: flex; align-items: center; gap: 0.5rem; }
+.scale-group .buttons { margin-bottom: 0; }
+.scale-group .button { margin-bottom: 0 !important; }
+.scale-label { font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.scale-note { font-size: 0.85em; color: var(--muted); }
+.qty, .temp { font-weight: 600; }
+
+/* ---- recipe page ---------------------------------------------------------- */
+.recipe-title { font-size: 2.4rem; line-height: 1.15; margin-bottom: 0.5rem !important; }
+/* Bulma pulls a subtitle up under a title (margin-top: -1.25rem); the larger serif title then overlaps it. */
+.recipe-title + .subtitle { margin-top: 0 !important; line-height: 1.35; }
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(60, 40, 20, 0.15);
+  margin: 0.75rem 0;
+}
+.recipe-intro img { display: block; margin: 1.5rem auto; }
+
+.ingredients-panel {
+  background: var(--panel);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.ingredients-panel h3 { margin-top: 0 !important; border-bottom: none; }
+.ingredients-panel h4 { margin-top: 1em !important; }
+.ingredients-panel ul { list-style: none; margin-left: 0 !important; }
+.ingredients-panel li { padding: 0.35em 0; border-bottom: 1px dashed var(--line); margin: 0 !important; }
+.ingredients-panel li:last-child { border-bottom: none; }
+
+@media screen and (min-width: 1024px) {
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) 2fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+  .ingredients-panel { position: sticky; top: 1.5rem; margin-top: 1.75em; }
+  .recipe-steps > h3:first-child { margin-top: 1.75em; }
+}
+
+/* Big numbered steps */
+.recipe-steps ol {
+  list-style: none;
+  counter-reset: step;
+  margin-left: 0 !important;
+}
+.recipe-steps ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  min-height: 2.2rem;
+}
+.recipe-steps ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -0.15rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---- recipe card grid ----------------------------------------------------- */
+.recipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 2px 4px rgba(60, 40, 20, 0.08), 0 14px 32px rgba(60, 40, 20, 0.12);
+  color: var(--ink);
+}
+.recipe-card .thumb {
+  aspect-ratio: 3 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--panel);
+  overflow: hidden;
+}
+.recipe-card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.recipe-card .thumb .initial {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--ink);
+  opacity: 0.35;
+}
+.thumb.cuisine-american { background: #f2e6cc; }
+.thumb.cuisine-british { background: #ece3ee; }
+.thumb.cuisine-chinese-american { background: #f6d9d4; }
+.thumb.cuisine-french { background: #e3e8f1; }
+.thumb.cuisine-german { background: #e4ead6; }
+.thumb.cuisine-italian { background: #f3dfd5; }
+.thumb.cuisine-mexican { background: #f4dccb; }
+.recipe-card .card-body { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }
+.recipe-card h2 { font-size: 1.25rem; line-height: 1.25; margin: 0; }
+.recipe-card .card-desc { font-size: 0.9rem; color: var(--muted); flex: 1; }
+.recipe-card .tags { margin: 0.25rem 0 0; }
+.recipe-card .tags .tag { margin-bottom: 0; }
+
+/* ---- footer --------------------------------------------------------------- */
+.food-safety { max-width: 40rem; margin: 0 auto 1rem; font-size: 0.8em; color: var(--muted); }
+
+/* ---- print: a clean recipe card on paper ----------------------------------- */
+.print-only { display: none; }
+
+@media print {
+  @page { margin: 1.5cm; }
+
+  body, body.has-background-white, body[theme="dark"] {
+    background: #fff !important;
+    color: #000;
+    filter: none !important;
+    font-size: 11pt;
+  }
+  img[theme="dark"] { filter: none !important; }
+
+  /* Hide site chrome and on-screen controls */
+  .navbar, .footer, .modal, .scale-bar, .pill-row, nav.level, .no-print { display: none !important; }
+  .print-only { display: block; }
+
+  /* Flatten the layout */
+  .section { padding: 0 !important; }
+  .container, .columns, .column { display: block !important; width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+  .box { border: none; box-shadow: none; padding: 0; background: none; }
+
+  h1, h2, h3, h4, .title, .content h3, .content h4 { color: #000 !important; break-after: avoid; }
+  .recipe-title { font-size: 20pt; margin-bottom: 2pt !important; }
+  .subtitle { font-size: 11pt; color: #444; margin-bottom: 8pt !important; }
+  .recipe-title + .subtitle { margin-top: 2pt !important; }
+  .content h3 { font-size: 13pt; margin-top: 12pt; border-bottom: 0.75pt solid #999; }
+  .content h4 { font-size: 11pt; }
+  .content a, .content a:not(.tag):not(.button) { color: #000 !important; text-decoration: none; }
+  p, li { orphans: 3; widows: 3; }
+
+  /* Photos stay on screen; paper gets the recipe */
+  .content img { display: none !important; }
+
+  /* Ingredients: boxed, two columns, kept together */
+  .recipe-grid { display: block; }
+  .ingredients-panel {
+    position: static;
+    background: none;
+    border: 0.75pt solid #999;
+    border-left: 3pt solid #000;
+    border-radius: 0;
+    padding: 6pt 12pt;
+    margin: 8pt 0 4pt;
+    break-inside: avoid;
+  }
+  .ingredients-panel ul { columns: 2; column-gap: 24pt; }
+  .ingredients-panel li { border-bottom: none; padding: 1pt 0; break-inside: avoid; }
+
+  /* Step numbers as outlined circles (no ink-heavy fills) */
+  .recipe-steps ol > li { padding-left: 2.2rem; break-inside: avoid; }
+  .recipe-steps ol > li::before {
+    background: none;
+    color: #000;
+    border: 1.25pt solid #000;
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 10pt;
+  }
+
+  .print-source { margin-top: 16pt; padding-top: 6pt; border-top: 0.75pt solid #999; font-size: 8pt; color: #444; }
+}

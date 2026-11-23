@@ -254,6 +254,13 @@
       render();
     }));
   }
+  var printBtn = document.createElement('button');
+  printBtn.type = 'button';
+  printBtn.className = 'button is-small is-light';
+  printBtn.textContent = 'Print';
+  printBtn.title = 'Print this recipe in the units and amount shown';
+  printBtn.addEventListener('click', function () { window.print(); });
+  bar.appendChild(printBtn);
   bar.appendChild(note);
   bar.hidden = false;
   render();

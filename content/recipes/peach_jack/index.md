@@ -6,6 +6,9 @@ description = "Freeze-distilled peach wine that tastes like summer."
 [taxonomies]
 categories = ["recipe"]
 tags = ["dessert", "acidic", "wine"]
+
+[extra]
+image = "final.jpg"
 +++
 
 "Jacking", or freeze distillation, creates a fortified wine, which in the case of peaches really preserves the taste of summer.

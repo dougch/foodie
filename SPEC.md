@@ -53,6 +53,7 @@ Use these sections, in this order. Optional sections are marked; leave them out 
    - `title` uses title case.
    - `date` is required; the site won't build without it. It's when the recipe was first written. If it's unknown, use the date of the first git commit or the earliest photo, and flag it. Never use placeholders like `1970-01-01`.
    - `description` is one line, under 60 characters.
+   - `image` is optional: the filename of the photo for the recipe's card on the Recipes page. It defaults to `finished.jpg`; without either, the card shows a colored placeholder.
    - `servings` is the number of servings the amounts as written make. It drives the "Serves N" readout in the scaling bar. If it's unknown, leave it out and flag it.
 2. **Blurb.** 1–2 sentences on what the dish is and why it's worth making. Follow it with `<!-- more -->`.
 3. **Context.** One short paragraph on where the recipe came from and what makes it work.

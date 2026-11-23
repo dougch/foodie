@@ -7,6 +7,9 @@ description = "Simple purple sauerkraut, fermented with 2.5% salt."
 categories = ["recipe"]
 tags = ["side", "strong", "acidic"]
 cuisine = ["German"]
+
+[extra]
+image = "purple.jpg"
 +++
 
 Not for everyone.

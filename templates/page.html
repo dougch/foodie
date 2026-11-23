@@ -1,12 +1,16 @@
 {% extends "DeepThought/templates/page.html" %}
 
 {% block content %}
+{#- Split the rendered recipe into intro / ingredients / rest, so the
+    ingredients can sit in a panel beside the steps on wide screens. -#}
+{%- set marker = '<h3 id="ingredients">' -%}
+{%- set parts = page.content | split(pat=marker) -%}
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column is-8 is-offset-2">
+      <div class="column is-10-desktop is-offset-1-desktop is-12-tablet">
         <article class="box">
-          <h1 class="title">{{ page.title }}</h1>
+          <h1 class="title recipe-title">{{ page.title }}</h1>
           {% if page.description %}<p class="subtitle">{{ page.description }}</p>{% endif %}
           <div class="tags pill-row">
             {%- if page.taxonomies.cuisine -%}
@@ -22,8 +26,20 @@
           </div>
           <div id="scale-bar" class="scale-bar" hidden data-servings="{{ page.extra.servings | default(value='') }}"></div>
           <div class="content mt-2">
+            {%- if parts | length == 2 -%}
+            {%- set rest = parts[1] | split(pat='<h3 ') -%}
+            <div class="recipe-intro">{{ parts[0] | safe }}</div>
+            <div class="recipe-grid">
+              <aside class="ingredients-panel">{{ marker | safe }}{{ rest[0] | safe }}</aside>
+              <div class="recipe-steps">
+                {%- for chunk in rest | slice(start=1) -%}<h3 {{ chunk | safe }}{%- endfor -%}
+              </div>
+            </div>
+            {%- else -%}
             {{ page.content | safe }}
+            {%- endif -%}
           </div>
+          <p class="print-only print-source">From {{ config.title }}: {{ page.permalink }}</p>
         </article>
       </div>
     </div>

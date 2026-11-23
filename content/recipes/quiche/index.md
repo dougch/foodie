@@ -7,6 +7,9 @@ description = "Artichoke quiche with a crisp puff pastry crust."
 categories = ["recipe"]
 tags = ["main", "breakfast", "crunchy"]
 cuisine = ["French"]
+
+[extra]
+image = "quiche.jpg"
 +++
 
 A crispy puff pastry crust helps sell this.

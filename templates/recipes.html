@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }} | {{ section.title }}{% endblock title %}
+
+{% block content %}
+{%- set course_tags = ["appetizer", "breakfast", "main", "side", "dessert"] -%}
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title is-2">{{ section.title }}</h1>
+      {% if section.description %}<p class="subtitle is-5">{{ section.description }}</p>{% endif %}
+    </div>
+    <div class="recipe-cards">
+      {%- for page in section.pages %}
+      {#- Card photo: [extra] image if set, else a colocated finished.jpg. -#}
+      {%- set_global card_img = "" -%}
+      {%- set wanted = page.extra.image | default(value="finished.jpg") -%}
+      {%- for asset in page.assets -%}
+      {%- if asset is ending_with("/" ~ wanted) -%}{%- set_global card_img = asset -%}{%- endif -%}
+      {%- endfor -%}
+      {%- set cuisine = "" -%}
+      {%- if page.taxonomies.cuisine -%}{%- set cuisine = page.taxonomies.cuisine[0] -%}{%- endif -%}
+      <a class="recipe-card" href="{{ page.permalink }}">
+        <div class="thumb{% if cuisine %} cuisine-{{ cuisine | slugify }}{% endif %}">
+          {%- if card_img -%}
+          {%- set thumb = resize_image(path=card_img, width=600, height=400, op="fill") -%}
+          <img src="{{ thumb.url }}" alt="{{ page.title }}" loading="lazy">
+          {%- else -%}
+          <span class="initial" aria-hidden="true">{{ page.title | truncate(length=1, end="") }}</span>
+          {%- endif -%}
+        </div>
+        <div class="card-body">
+          <h2>{{ page.title }}</h2>
+          {% if page.description %}<p class="card-desc">{{ page.description }}</p>{% endif %}
+          <div class="tags">
+            {%- if cuisine -%}<span class="tag is-rounded is-light is-warning">{{ cuisine }}</span>{%- endif -%}
+            {%- if page.taxonomies.tags -%}{%- for t in page.taxonomies.tags -%}{%- if t in course_tags -%}
+            <span class="tag is-rounded is-light is-info">{{ t }}</span>
+            {%- endif -%}{%- endfor -%}{%- endif -%}
+          </div>
+        </div>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{% endblock content %}

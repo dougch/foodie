@@ -7,6 +7,9 @@ description = "Chicken rolled up with prosciutto, mozzarella and pesto."
 categories = ["recipe"]
 tags = ["main", "dry"]
 cuisine = ["Italian"]
+
+[extra]
+image = "assembly.jpg"
 +++
 
 Mini meat rolls.
