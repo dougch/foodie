@@ -1,0 +1,66 @@
+# The URL the site will be built for
+base_url = "https://prjctgeek.github.io/foodie"
+title = "Cooking for sensory averse"
+description = "Some recipes for sensory averse, and those coping"
+default_language = "en"
+minify_html = false
+
+compile_sass = true
+generate_feeds = true
+#feed_filenames = "rss.xml"
+build_search_index = true
+theme = "DeepThought"
+
+ignored_content = [ "README.md" ]
+
+taxonomies = [
+    { name = "categories", feed = true, paginate_by = 10 },
+    { name = "tags", fees = true, paginate_by = 10 },
+]
+
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+toc = true
+navbar_items = [
+ { code = "en", nav_items = [
+  { url = "$BASE_URL/", name = "Home" },
+  { url = "$BASE_URL/guidelines", name = "Guidelines" },
+  { url = "$BASE_URL/recipes", name = "Recipes" },
+ ]},
+  { code = "it", nav_items = [
+  { url = "$BASE_URL/", name = "Casa" },
+  { url = "$BASE_URL/it/recette", name = "Recetti" },
+ ]}
+]
+chart.enabled = true
+mermaid.enabled = true
+
+[extra.author]
+name = ""
+avatar = ""
+
+[extra.social]
+
+# Add links to favicon, you can use https://realfavicongenerator.net/ to generate favicon for your site
+[extra.favicon]
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+safari_pinned_tab = "/icons/safari-pinned-tab.svg"
+webmanifest = "/icons/site.webmanifest"
+
+
+# To add google analytics
+#[extra.analytics]
+#google = "<your_gtag>"
+
+# To enable mapbox maps
+#[extra.mapbox]
+#access_token = "<your_access_token>"
+
