@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://prjctgeek.github.io/foodie"
+base_url = "https://foodie.chapmaniacs.com"
 title = "Doug's Kitchen"
 description = "My recipes"
 default_language = "en"
