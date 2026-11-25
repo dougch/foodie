@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Doug&#x27;s Kitchen - recipe</title>
+    <subtitle>My recipes</subtitle>
+    <link href="https://foodie.chapmaniacs.com/categories/recipe/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://foodie.chapmaniacs.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-11-23T00:00:00+00:00</updated>
+    <id>https://foodie.chapmaniacs.com/categories/recipe/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Carrot Pickles</title>
+        <published>2026-11-23T00:00:00+00:00</published>
+        <updated>2026-11-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/carrot-pickles/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/carrot-pickles/</id>
+        
+        <summary type="html">&lt;p&gt;Pickled carrots hold up to home canning better than cucumbers.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cream Puffs with Strawberry and Rhubarb</title>
+        <published>2025-05-11T00:00:00+00:00</published>
+        <updated>2025-05-11T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/cream-puffs/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/cream-puffs/</id>
+        
+        <summary type="html">&lt;p&gt;I grew up in the Pacific Northwest, and one of my favorite seasonal food memories is the
+juxtaposition of sweet strawberries and tart rhubarb.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>White Bean Soup</title>
+        <published>2023-10-22T00:00:00+00:00</published>
+        <updated>2023-10-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/whitebeansoup/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/whitebeansoup/</id>
+        
+        <summary type="html">&lt;p&gt;We got some smoked pork neck bones from a friend, and I thought I&#x27;d take a crack at making soup with them.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tuna Melt</title>
+        <published>2023-06-01T00:00:00+00:00</published>
+        <updated>2023-06-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/tunamelt/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/tunamelt/</id>
+        
+        <summary type="html">&lt;p&gt;Pandemic comfort food for me.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chicken Involtini</title>
+        <published>2023-04-20T00:00:00+00:00</published>
+        <updated>2023-04-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/chicken-involtini/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/chicken-involtini/</id>
+        
+        <summary type="html">&lt;p&gt;Mini meat rolls.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Black Bean Chili</title>
+        <published>2023-02-25T00:00:00+00:00</published>
+        <updated>2023-02-25T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/chilli/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/chilli/</id>
+        
+        <summary type="html">&lt;p&gt;Nothing terribly special about this chili, other than the lack of spice.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Peach Wine&#x2F;Jack</title>
+        <published>2022-11-22T00:00:00+00:00</published>
+        <updated>2022-11-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/peach-jack/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/peach-jack/</id>
+        
+        <summary type="html">&lt;p&gt;&amp;quot;Jacking&amp;quot;, or freeze distillation, creates a fortified wine, which in the case of peaches really preserves the taste of summer.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Garlic Bread</title>
+        <published>2022-06-23T00:00:00+00:00</published>
+        <updated>2022-06-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/garlicbread/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/garlicbread/</id>
+        
+        <summary type="html">&lt;p&gt;Served as a common side, it&#x27;s crunchy, cheesy and garlicky.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sauerkraut</title>
+        <published>2022-06-23T00:00:00+00:00</published>
+        <updated>2022-06-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/sauerkraut/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/sauerkraut/</id>
+        
+        <summary type="html">&lt;p&gt;Not for everyone.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Quiche</title>
+        <published>2022-06-10T00:00:00+00:00</published>
+        <updated>2022-06-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/quiche/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/quiche/</id>
+        
+        <summary type="html">&lt;p&gt;A crispy puff pastry crust helps sell this.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pear Jam</title>
+        <published>2022-06-01T00:00:00+00:00</published>
+        <updated>2022-06-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/pear-jam/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/pear-jam/</id>
+        
+        <summary type="html">&lt;p&gt;Low-sugar pear jam is a wonderfully subtle reminder of late summer.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Kouign-Amann</title>
+        <published>2022-05-27T00:00:00+00:00</published>
+        <updated>2022-05-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/kouign-amann/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/kouign-amann/</id>
+        
+        <summary type="html">&lt;p&gt;Fancy pastries, with a caramel bottom.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Salmon Rangoon</title>
+        <published>2022-05-27T00:00:00+00:00</published>
+        <updated>2022-05-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/salmonrangoon/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/salmonrangoon/</id>
+        
+        <summary type="html">&lt;p&gt;A much more approachable version of a P.F. Chang&#x27;s appetizer.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Bacon and Artichoke Frittata</title>
+        <published>2022-05-19T00:00:00+00:00</published>
+        <updated>2022-05-19T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/frittata/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/frittata/</id>
+        
+        <summary type="html">&lt;p&gt;Similar to quiche, but without the crust.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Artichoke Dip</title>
+        <published>2022-05-03T00:00:00+00:00</published>
+        <updated>2022-05-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/artichoke-dip/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/artichoke-dip/</id>
+        
+        <summary type="html">&lt;p&gt;A quintessential potluck item from decades past, it&#x27;s easy to assemble, travels well and can be reheated easily.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Barbacoa</title>
+        <published>2022-05-03T00:00:00+00:00</published>
+        <updated>2022-05-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/barbacoa/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/barbacoa/</id>
+        
+        <summary type="html">&lt;p&gt;We affectionately refer to this as &amp;quot;Mexican pulled pork&amp;quot;. My take is a little more work than the traditional, but packs in even more smoky goodness.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hamburgers</title>
+        <published>2022-05-03T00:00:00+00:00</published>
+        <updated>2022-05-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/hamburgers/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/hamburgers/</id>
+        
+        <summary type="html">&lt;p&gt;Why is something so simple and well understood as a hamburger here?&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sriracha Cucumber Pickles</title>
+        <published>2022-05-03T00:00:00+00:00</published>
+        <updated>2022-05-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/sriratcha-cucumber-pickles/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/sriratcha-cucumber-pickles/</id>
+        
+        <summary type="html">&lt;p&gt;Excellent addition to a salad.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pulled Pork</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/pulledpork/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/pulledpork/</id>
+        
+        <summary type="html">&lt;p&gt;My spin on this, which will offend purists, is to finish off the meat in the oven.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ratatouille</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/ratatouille/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/ratatouille/</id>
+        
+        <summary type="html">&lt;p&gt;This goes over well as a vegetable side for people who wouldn&#x27;t normally eat squash. And it&#x27;s pretty, so major points at a potluck or Turkey Day.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Bread Pudding</title>
+        <published>2002-01-01T00:00:00+00:00</published>
+        <updated>2002-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/bread-pudding/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/bread-pudding/</id>
+        
+        <summary type="html">&lt;p&gt;This was a Thanksgiving staple when the kids were little. The dried fruit adds texture and breaks up the heaviness.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Granola</title>
+        <published>2001-01-01T00:00:00+00:00</published>
+        <updated>2001-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/granola/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/granola/</id>
+        
+        <summary type="html">&lt;p&gt;My take on granola, usually just mixed 50&#x2F;50 with plain Greek yogurt.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pumpkin Pie</title>
+        <published>2000-01-01T00:00:00+00:00</published>
+        <updated>2000-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/pumpkinpie/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/pumpkinpie/</id>
+        
+        <summary type="html">&lt;p&gt;Moving old recipe cards to this site, I came across this pie recipe.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pumpkin Bread</title>
+        <published>1997-06-21T00:00:00+00:00</published>
+        <updated>1997-06-21T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://foodie.chapmaniacs.com/recipes/pumpkinbread/" type="text/html"/>
+        <id>https://foodie.chapmaniacs.com/recipes/pumpkinbread/</id>
+        
+        <summary type="html">&lt;p&gt;A little texture and extra sweetness helps sell it. Try cream cheese instead of butter on top; it gives a tang for the foodies.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
