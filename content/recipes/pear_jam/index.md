@@ -24,7 +24,8 @@ By using a thin-skinned cooking pear, you can avoid the need for additional pect
 ### Equipment
 
 - A colander makes this job easier, but you can also use a metal mesh straining bowl in a pinch.
-- About 12 half-pint mason jars, lids and rings
+- Canning pot
+- About 12 half-pint jars
 
 ### Steps
 
@@ -40,17 +41,15 @@ Once you have strained out all of the skins, seeds and pithy bits, return the fr
 
 #### Cold saucer test
 
-While most of my jam making skills were learned from my grandmother, the idea of testing how well the jam will set before jarring I picked up from the excellent book "Saving the Seasons" by Kevin West.
+While most of my jam making skills were learned from my grandmother, the idea of testing how well the jam will set before jarring I picked up from the excellent book [*Saving the Season*](@/bibliography.md) by Kevin West.
 
 The basic idea is you put a saucer in the freezer for 10–15 minutes, and when you think the jam is ready, place a small streak (1/2 T) onto the plate. It should set up into a thick, jammy "gel". This tells you how thick the final product will likely come out, and means it's time to jar.
 
 #### Canning
 
-I prefer half pints for jam, ensuring it gets eaten before it goes off. Boil some water and pour it into the jars to sanitize them for 30 seconds. Add jam, leaving half an inch of headspace. Be sure to wipe the rims with a clean finger to make sure nothing prevents a good seal. Place a lid on each jar and do not over-tighten the rings.
+I prefer half pints for jam, ensuring it gets eaten before it goes off. Scald the jars with boiling water for 30 seconds, fill them with jam, and process in a [boiling water bath](@/canning.md) for 12 minutes to seal.
 
-Place in a boiling water bath for 12 minutes. When you pull them out, use a pot holder to tighten the rings all the way, and flip them upside down to cool. I usually do this overnight.
-
-Test the seal by tapping on the lids; they should not "pop" when you press on them, but expect at least 1–2 to fail to seal. Any without a good seal should go into the fridge and be eaten right away. Store the rest in a cool, dry place for up to 18–24 months.
+Expect at least 1–2 jars to fail to seal; put those in the fridge and eat them right away. Store the rest in a cool, dry place for up to 18–24 months.
 
 ### Serving ideas
 

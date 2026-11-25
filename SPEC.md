@@ -67,6 +67,8 @@ Use these sections, in this order. Optional sections are marked; leave them out 
 11. `### Serving ideas`. Optional.
 12. `### Credit`. Optional. Link to the source recipe or book.
 
+Canning recipes assume the reader already knows how to can. Don't explain headspace, processing or sealing; link the technique to the canning page (`@/canning.md`) instead, and don't flag those details as missing.
+
 Technique and reference pages (sous vide, canning, wine) are free-form essays in the same voice. They use `categories = ["technique"]` or `["reference"]`.
 
 ## Ingredients

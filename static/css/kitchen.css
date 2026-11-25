@@ -133,8 +133,9 @@ h1, h2, h3, h4, h5,
   .recipe-steps > h3:first-child { margin-top: 1.75em; }
 }
 
-/* Big numbered steps */
-.recipe-steps ol {
+/* Big numbered steps. The selector has to outrank Bulma's
+   `.content ol:not([type])`, which sets decimal numbering. */
+.content .recipe-steps ol:not([type]) {
   list-style: none;
   counter-reset: step;
   margin-left: 0 !important;
